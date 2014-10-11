@@ -1,0 +1,6 @@
+c:\users\the\documents\visual studio 2013\Projects\C-Sharp GeoIP\C-Sharp GeoIP\bin\Debug\C-Sharp GeoIP.exe.config
+c:\users\the\documents\visual studio 2013\Projects\C-Sharp GeoIP\C-Sharp GeoIP\bin\Debug\C-Sharp GeoIP.exe
+c:\users\the\documents\visual studio 2013\Projects\C-Sharp GeoIP\C-Sharp GeoIP\bin\Debug\C-Sharp GeoIP.pdb
+c:\users\the\documents\visual studio 2013\Projects\C-Sharp GeoIP\C-Sharp GeoIP\obj\Debug\C-Sharp GeoIP.csprojResolveAssemblyReference.cache
+c:\users\the\documents\visual studio 2013\Projects\C-Sharp GeoIP\C-Sharp GeoIP\obj\Debug\C-Sharp GeoIP.exe
+c:\users\the\documents\visual studio 2013\Projects\C-Sharp GeoIP\C-Sharp GeoIP\obj\Debug\C-Sharp GeoIP.pdb
