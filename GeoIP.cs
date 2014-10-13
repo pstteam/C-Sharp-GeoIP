@@ -25,11 +25,18 @@ namespace C_Sharp_GeoIP
 
         }
 
-        public void FetchInfo()
+        public void FetchInfo(string thisIp ="self")
         {
+            HttpWebRequest httpWebRequest;
+
             try
             {
-                HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create("http://freegeoip.net/xml/");
+                if (thisIp == "self")
+                {
+                    httpWebRequest = (HttpWebRequest)WebRequest.Create("http://freegeoip.net/xml/");
+                }
+                else { httpWebRequest = (HttpWebRequest)WebRequest.Create("http://freegeoip.net/xml/" + thisIp); }
+                
                 HttpWebResponse httpWebResponse = (HttpWebResponse)httpWebRequest.GetResponse();
                 Stream stream = httpWebResponse.GetResponseStream();
                 StreamReader reader = new StreamReader(stream);
@@ -51,7 +58,7 @@ namespace C_Sharp_GeoIP
             }
             catch 
             {
-
+                //Error handler here
             }
         }
     }
